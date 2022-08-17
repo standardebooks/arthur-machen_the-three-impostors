@@ -64,7 +64,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber">Marc D’Hooghe at http://www.freeliterature.org</dc:contributor>
+		<dc:contributor id="transcriber">Marc D’Hooghe</dc:contributor>
 		<meta property="file-as" refines="#transcriber">D’Hooghe, Marc</meta>
 		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer">Nagarjun</dc:contributor>
