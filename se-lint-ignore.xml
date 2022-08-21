@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-*.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>No punctuation at the end of the paragraph since the character begins recounting the subchapter immediately after.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
