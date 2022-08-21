@@ -45,8 +45,8 @@
 		<meta property="se:subject">Horror</meta>
 		<dc:description id="description">The novel follows two flâneurs in Victorian London who get caught up in a larger conspiracy involving the mysterious doctor Lipsius and his three followers, who will stop at nothing to find a certain spectacled man and a rare Roman coin he holds.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/arthur-machen"&gt;Arthur Machen&lt;/a&gt; (the pen-name of Arthur Llewellyn Jones) was a Welsh author known for his work in the horror genre. His influences can be found in the works of Jorge Luis Borges, Neil Gaiman and H. P. Lovecraft, who called him "one of the four modern masters of horror".&lt;/p&gt;
-			&lt;p&gt;This novel is a Gothic horror classic, and takes the form of an episodic novel, with each chapter containing a story recounted by one of the three impostors. Among others, it contains "Novel of the Black Seal" and "Novel of the White Powder", which have been widely anthologized.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/arthur-machen"&gt;Arthur Machen&lt;/a&gt; (the pen-name of Arthur Llewellyn Jones) was a Welsh author known for his work in the horror genre. His influences can be found in the works of Jorge Luis Borges, Neil Gaiman and H. P. Lovecraft, who called him “one of the four modern masters of horror”.&lt;/p&gt;
+			&lt;p&gt;This novel is a Gothic horror classic, and takes the form of an episodic novel, with each chapter containing a story recounted by one of the three impostors. Among others, it contains “Novel of the Black Seal” and “Novel of the White Powder”, which have been widely anthologized.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/35517</dc:source>
