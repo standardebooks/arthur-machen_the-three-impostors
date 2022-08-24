@@ -6,11 +6,13 @@ blockquote[xml|lang]{
 	font-style: italic;
 }
 
+/* Applies to William Gregg header */
 blockquote[epub|type] > header > p:first-child{
 	font-style: italic;
 	margin-bottom: 1em;
 } 
 
+/* The two blocks below apply to the headlines in blockquote */
 blockquote:not([epub|type]) > header > p{
 	font-variant: all-small-caps;
 	font-size: 120%; 
