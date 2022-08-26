@@ -24,8 +24,8 @@ blockquote[xml|lang]{
 
 /* Applies to The Gold Tiberius blockquote */
 #chapter-7 > blockquote:first-of-type{
-        font-variant: small-caps;
-        text-align: center;
+	font-variant: small-caps;
+	text-align: center;
 }
 
 footer{
@@ -47,8 +47,4 @@ footer{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
-}
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
 }
