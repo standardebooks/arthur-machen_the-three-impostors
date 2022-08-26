@@ -7,19 +7,23 @@ blockquote[xml|lang]{
 }
 
 /* Applies to William Gregg header */
-blockquote[epub|type] > header > p:first-child{
+#chapter-3 blockquote > header{
 	font-style: italic;
 	margin-bottom: 1em;
-} 
-
-/* The two blocks below apply to the headlines in blockquote */
-blockquote:not([epub|type]) > header > p{
-	font-variant: all-small-caps;
-	font-size: 120%; 
 }
 
-blockquote:not([epub|type]) > header > p:first-child{
-	font-size: 150%;
+/* The two blocks below apply to the headlines in blockquote */
+#chapter-2 blockquote > header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+#chapter-2 blockquote > header > p:first-of-type{
+	font-size: 1.25em;
+}
+
+#chapter-7 blockquote:first-of-type{
+        font-variant: small-caps;
 }
 
 footer{
