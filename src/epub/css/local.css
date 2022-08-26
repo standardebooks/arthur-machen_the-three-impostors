@@ -22,8 +22,10 @@ blockquote[xml|lang]{
 	font-size: 1.25em;
 }
 
-#chapter-7 blockquote:first-of-type{
+/* Applies to The Gold Tiberius blockquote */
+#chapter-7 > blockquote:first-of-type{
         font-variant: small-caps;
+        text-align: center;
 }
 
 footer{
