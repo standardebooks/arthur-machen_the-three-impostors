@@ -70,9 +70,9 @@
 		<dc:contributor id="transcriber">Marc D’Hooghe</dc:contributor>
 		<meta property="file-as" refines="#transcriber">D’Hooghe, Marc</meta>
 		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer">Nagarjun</dc:contributor>
+		<dc:contributor id="producer">Nagarjun Dwarakanath</dc:contributor>
 		<meta property="se:url.homepage" refines="#producer">https://github.com/villeporte</meta>
-		<meta property="file-as" refines="#producer">Nagarjun</meta>
+		<meta property="file-as" refines="#producer">Dwarakanath, Nagarjun</meta>
 		<meta property="role" refines="#producer" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer" scheme="marc:relators">cov</meta>
