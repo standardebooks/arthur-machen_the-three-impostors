@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/arthur-machen/the-three-impostors</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-08-28T21:15:01Z</dc:date>
+		<meta property="dcterms:modified">2022-08-28T21:15:01Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -28,7 +28,7 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Three Impostors</dc:title>
 		<meta property="file-as" refines="#title">Three Impostors, The</meta>
-		<meta property="se:alternate-title" refines="#title">The 3 Impostors</meta>
+		<meta property="dcterms:alternate" refines="#title">The 3 Impostors</meta>
 		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="subtitle">The Transmutations</dc:title>
 		<meta property="file-as" refines="#subtitle">Transmutations, The</meta>
@@ -44,17 +44,17 @@
 		<meta property="term" refines="#subject-2">sh85062088</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Horror</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">Two flâneurs in Victorian London get caught up with the members of a secret society and their search for a rare Roman coin.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/arthur-machen"&gt;Arthur Machen&lt;/a&gt; (the pen-name of Arthur Llewellyn Jones) was a Welsh author known for his work in the horror genre. His influences can be found in the works of Jorge Luis Borges, Neil Gaiman and H. P. Lovecraft, who called him “one of the four modern masters of horror.”&lt;/p&gt;
-			&lt;p&gt;Two idlers in London are walking around and pick up a coin dropped by a fleeing spectacled man. They keep meeting three persons, every time in a different disguise who recount lurid tales. They seem to be looking for a spectacled man who regrets working with them and has run away with a valuable coin …&lt;/p&gt;
-			&lt;p&gt;This novel is a Gothic horror classic, and takes the form of an episodic novel, with each chapter containing a story recounted by one of the three impostors. Among others, it contains “Novel of the Black Seal” and “Novel of the White Powder,” which have been widely anthologized.&lt;/p&gt;
+			&lt;p&gt;Two idlers in London are sauntering in the streets when they pick up a coin dropped by a fleeing man. They keep meeting three persons, each time in a different disguise, who recount lurid tales. They seem to be looking for a spectacled man who regrets working with them, and has run away with a valuable coin …&lt;/p&gt;
+			&lt;p&gt;This novel is a Gothic horror classic, and takes the form of an episodic novel, with each chapter containing a story recounted by one of the three impostors. It contains “Novel of the Black Seal” and “Novel of the White Powder,” popular stories which have been widely anthologized.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/35517</dc:source>
 		<dc:source>https://archive.org/details/threeimpostorsor00machuoft</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">59010</meta>
+		<meta property="se:reading-ease.flesch">63.83</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Three_Impostors</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/arthur-machen_the-three-impostors</meta>
 		<dc:creator id="author">Arthur Machen</dc:creator>
@@ -70,15 +70,19 @@
 		<dc:contributor id="transcriber">Marc D’Hooghe</dc:contributor>
 		<meta property="file-as" refines="#transcriber">D’Hooghe, Marc</meta>
 		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer">Nagarjun Dwarakanath</dc:contributor>
-		<meta property="se:url.homepage" refines="#producer">https://github.com/villeporte</meta>
-		<meta property="file-as" refines="#producer">Dwarakanath, Nagarjun</meta>
-		<meta property="role" refines="#producer" scheme="marc:relators">bkp</meta>
-		<meta property="se:role" refines="#producer" scheme="marc:relators">blw</meta>
-		<meta property="se:role" refines="#producer" scheme="marc:relators">cov</meta>
-		<meta property="se:role" refines="#producer" scheme="marc:relators">mrk</meta>
-		<meta property="se:role" refines="#producer" scheme="marc:relators">pfr</meta>
-		<meta property="se:role" refines="#producer" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-1">Nagarjun Dwarakanath</dc:contributor>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/villeporte</meta>
+		<meta property="file-as" refines="#producer-1">Dwarakanath, Nagarjun</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
