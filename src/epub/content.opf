@@ -54,7 +54,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/35517</dc:source>
 		<dc:source>https://archive.org/details/threeimpostorsor00machuoft</dc:source>
 		<meta property="se:word-count">59012</meta>
-		<meta property="se:reading-ease.flesch">63.83</meta>
+		<meta property="se:reading-ease.flesch">63.93</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Three_Impostors</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/arthur-machen_the-three-impostors</meta>
 		<dc:creator id="author">Arthur Machen</dc:creator>
